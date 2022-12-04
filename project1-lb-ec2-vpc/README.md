@@ -16,5 +16,5 @@ Steps 6: Create 2 EC2 intances in each subnet and adding script to create static
 
 Steps 7-9 are done in <a href="https://github.com/ranajitpang/aws-terraform-rana/blob/main/project1-lb-ec2-vpc/alb.tf">alb.tf</a>
 7. Create a Load balancer, load balancer security group, target group.
-8. Add load balancer lister to the load balancer.
+8. 8. Add load balancer lister to the load balancer.
 9. Test the whole set up by hitting to the load balancer domain url.
