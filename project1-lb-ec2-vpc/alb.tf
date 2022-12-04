@@ -43,6 +43,8 @@ resource "aws_lb_target_group_attachment" "web-tg-attach2" {
     port = "80"
 }
 
+# creating a application load balancer
+
 resource "aws_lb" "web-lb" {
     name = "weblb"
     internal = "false"
@@ -50,6 +52,8 @@ resource "aws_lb" "web-lb" {
     subnets = ["${aws_subnet.public-subnet1.id}", "${aws_subnet.public-subnet2.id}"]
     security_groups = ["${aws_security_group.lb-sg.id}"]
 }
+
+# adding a listerner to the load balancer
 
 resource "aws_lb_listener" "web-lb-listener" {
     load_balancer_arn = "${aws_lb.web-lb.id}"
