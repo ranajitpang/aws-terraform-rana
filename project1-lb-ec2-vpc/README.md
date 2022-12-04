@@ -14,7 +14,7 @@ Steps 1-5 are done in <a href="https://github.com/ranajitpang/aws-terraform-rana
 
 Steps 6: Create 2 EC2 intances in each subnet and adding script to create static web page and health check page. <a href="https://github.com/ranajitpang/aws-terraform-rana/blob/main/project1-lb-ec2-vpc/ec2intances.tf">ec2intances.tf</a>
 
-Steps 7-9 are done in <a href="https://github.com/ranajitpang/aws-terraform-rana/blob/main/project1-lb-ec2-vpc/alb.tf">alb.tf</a> /n
+Steps 7-9 are done in <a href="https://github.com/ranajitpang/aws-terraform-rana/blob/main/project1-lb-ec2-vpc/alb.tf">alb.tf</a> 
 
   7. Create a Load balancer, load balancer security group, target group.
   8. 8. Add load balancer lister to the load balancer.
