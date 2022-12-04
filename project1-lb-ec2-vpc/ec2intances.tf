@@ -1,4 +1,4 @@
-#Creating EC2 instances
+#Creating an EC2 instance in subnet1 and adding user_data to create simple html page
 
 resource "aws_instance" "web-server1" {
     ami = "ami-0b0dcb5067f052a63"
@@ -14,6 +14,7 @@ resource "aws_instance" "web-server1" {
     }
 }
 
+#Creating an EC2 instance in subnet2 and adding user_data to create simple html page
 resource "aws_instance" "web-server2" {
     ami = "ami-0b0dcb5067f052a63"
     instance_type = "t2.micro"
