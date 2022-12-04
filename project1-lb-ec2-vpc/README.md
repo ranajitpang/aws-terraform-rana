@@ -13,3 +13,6 @@ steps
 7. Create a Load balancer, load balancer security group, target group.
 8. Add load balancer lister to the load balancer.
 9. Test the whole set up by hitting to the load balancer domain url.
+
+
+Steps 1-5 are done in <a href="https://github.com/ranajitpang/aws-terraform-rana/blob/main/project1-lb-ec2-vpc/vpc.tf" /a>
